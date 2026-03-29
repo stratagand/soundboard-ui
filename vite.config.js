@@ -5,10 +5,10 @@ export default defineConfig({
   base: '/soundboard-ui/',
   plugins: [react()],
   server: {
-    port: 3001,
+    port: 4173,
     proxy: {
       '/api': {
-        target: 'http://71.178.45.235',
+        target: 'http://71.178.45.235:3001',
         changeOrigin: true,
         secure: false
       }
