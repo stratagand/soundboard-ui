@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
-  "homepage": "https://stratagand.github.io/soundboard-ui",
+  "homepage": "http://71.178.45.235:3001",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -14,7 +14,8 @@
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.1",
+    "selfsigned": "^5.5.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.1",

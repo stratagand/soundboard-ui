@@ -10,10 +10,30 @@ const SOUND_LIST = [
   { id: 'natalie', label: 'Natalie' },
   { id: 'russell', label: 'Russell' },
   { id: 'whostheman', label: "Who's The Man" },
-  { id: 'xgongiveittoya', label: 'Gonna Give It To Ya' }
+  { id: 'xgongiveittoya', label: 'Gonna Give It To Ya' },
+  { id: 'ipinch', label: 'I Pinch' },
+  { id: 'dialup', label: 'dialup' },
+  { id: 'eating', label: 'eating' },
+  { id: 'fail', label: 'fail' },
+  { id: 'heavenly-choir', label: 'heavenly choir' },
+  { id: 'kids-cheering', label: 'kids cheering' },
+  { id: 'mario-coin', label: 'mario coin' },
+  { id: 'mario-death', label: 'mario death' },
+  { id: 'mario-mushroom', label: 'mario mushroom' },
+  { id: 'prowler', label: 'prowler' },
+  { id: 'running', label: 'running' },
+  { id: 'secret', label: 'secret' },
+  { id: 'spongebob-fail', label: 'spongebob fail' },
+  { id: 'victory', label: 'victory' },
+  { id: 'yahaha', label: 'yahaha' },
+  { id: 'zelda-boss', label: 'zelda boss' },
+  { id: 'zelda-item', label: 'zelda item' },
+  { id: 'sanford', label: 'Sanford' },
+  { id: 'NFL-theme', label: 'NFL theme' }
+
 ];
 
-const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:3001';
+const API_BASE = import.meta.env.VITE_API_BASE || '';
 
 const fetchJson = async (path, options = {}) => {
   const url = path.startsWith('http') ? path : `${API_BASE}${path}`;
