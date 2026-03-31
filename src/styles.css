@@ -119,6 +119,29 @@ select {
   font-weight: 600;
 }
 
+.tab-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 16px;
+}
+
+.tab-button {
+  background: rgba(148, 163, 184, 0.08);
+  border: 1px solid rgba(148, 163, 184, 0.24);
+  color: #e2e8f0;
+  padding: 0.75rem 1rem;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.tab-button:hover,
+.tab-button.active {
+  background: rgba(37, 99, 235, 0.16);
+  border-color: #2563eb;
+}
+
 .status-card {
   display: flex;
   flex-direction: column;

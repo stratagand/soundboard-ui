@@ -27,6 +27,15 @@ function App() {
   const [status, setStatus] = useState('');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
+  const [selectedTab, setSelectedTab] = useState(() => SOUND_LIST[0]?.tab ?? SOUND_LIST[0]?.category ?? 'All');
+
+  const tabs = useMemo(() => {
+    const seen = new Set();
+    SOUND_LIST.forEach((sound) => {
+      seen.add(sound.tab ?? sound.category ?? 'All');
+    });
+    return Array.from(seen);
+  }, []);
 
   useEffect(() => {
     const loadUser = async () => {
@@ -148,11 +157,14 @@ function App() {
   };
 
   const soundGroups = useMemo(() => {
-    const groups = SOUND_LIST.reduce((groups, sound) => {
-      if (!groups[sound.category]) {
-        groups[sound.category] = [];
+    const groups = SOUND_LIST.filter(
+      (sound) => (sound.tab ?? sound.category ?? 'All') === selectedTab
+    ).reduce((groups, sound) => {
+      const category = sound.category ?? 'Sounds';
+      if (!groups[category]) {
+        groups[category] = [];
       }
-      groups[sound.category].push(sound);
+      groups[category].push(sound);
       return groups;
     }, {});
 
@@ -163,7 +175,7 @@ function App() {
     });
 
     return groups;
-  }, []);
+  }, [selectedTab]);
 
   const guildOptions = useMemo(
     () => guilds.map((guild) => ({ value: guild.id, label: guild.name })),
@@ -234,6 +246,21 @@ function App() {
               >
                 Stop playback
               </button>
+            </section>
+
+            <section className="card soundboard">
+              <div className="tab-bar">
+                {tabs.map((tab) => (
+                  <button
+                    key={tab}
+                    type="button"
+                    className={`tab-button${tab === selectedTab ? ' active' : ''}`}
+                    onClick={() => setSelectedTab(tab)}
+                  >
+                    {tab}
+                  </button>
+                ))}
+              </div>
             </section>
 
             {Object.entries(soundGroups).map(([category, sounds]) => (
