@@ -60,6 +60,12 @@
     "tab": "Sounds"
   },
   {
+    "id": "death-note-confusion-sound",
+    "label": "deathnote confusion",
+    "category":"Music",
+    "tab": "Music"
+  },
+  {
     "id": "defense",
     "label": "defense",
     "category": "Sounds",
