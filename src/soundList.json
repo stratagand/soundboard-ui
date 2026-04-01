@@ -68,8 +68,8 @@
   {
     "id": "death-note-confusion-sound",
     "label": "deathnote confusion",
-    "category":"Music",
-    "tab": "Music"
+    "category":"Anime",
+    "tab": "Anime"
   },
   {
     "id": "defense",
@@ -86,8 +86,8 @@
   {
     "id": "eating",
     "label": "eating",
-    "category": "Sounds",
-    "tab": "Sounds"
+    "category": "Minecraft",
+    "tab": "Minecraft"
   },
   {
     "id": "erwin-advance",
@@ -330,6 +330,12 @@
     "tab": "Zelda"
   },
   {
+    "id": "minecraft-villager",
+    "label": "villager",
+    "category": "Minecraft",
+    "tab": "Minecraft"
+  },
+  {
     "id": "wheres-my-money",
     "label": "wheres my money",
     "category": "Sounds",
@@ -370,6 +376,12 @@
     "label": "you shall not pass",
     "category": "Movies",
     "tab": "Movies"
+  },
+  {
+    "id": "yuujiiii-choso",
+    "label": "Yuuujiii",
+    "category": "Anime",
+    "tab": "Anime"
   },
   {
     "id": "zelda-boss",
