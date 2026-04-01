@@ -8,38 +8,38 @@
   {
     "id": "artillery",
     "label": "artillery",
-    "category": "Sounds",
-    "tab": "Sounds"
+    "category": "DND",
+    "tab": "DND"
   },
   {
     "id": "attack-unarmed",
     "label": "attack unarmed",
-    "category": "Sounds",
-    "tab": "Sounds"
+    "category": "DND",
+    "tab": "DND"
   },
   {
     "id": "boot",
     "label": "boot",
-    "category": "Sounds",
-    "tab": "Sounds"
+    "category": "DND",
+    "tab": "DND"
   },
   {
     "id": "boot-missed",
     "label": "boot missed",
-    "category": "Sounds",
-    "tab": "Sounds"
+    "category": "DND",
+    "tab": "DND"
   },
   {
     "id": "boot-multi",
     "label": "boot multi",
-    "category": "Sounds",
-    "tab": "Sounds"
+    "category": "DND",
+    "tab": "DND"
   },
   {
     "id": "boot-some-head-too",
     "label": "boot some head too",
-    "category": "Sounds",
-    "tab": "Sounds"
+    "category": "DND",
+    "tab": "DND"
   },
   {
     "id": "boot-to-the-head",
@@ -74,8 +74,8 @@
   {
     "id": "defense",
     "label": "defense",
-    "category": "Sounds",
-    "tab": "Sounds"
+    "category": "DND",
+    "tab": "DND"
   },
   {
     "id": "dialup",
@@ -116,8 +116,8 @@
   {
     "id": "headshot",
     "label": "headshot",
-    "category": "Sounds",
-    "tab": "Sounds"
+    "category": "DND",
+    "tab": "DND"
   },
   {
     "id": "heavenly-choir",
@@ -152,8 +152,8 @@
   {
     "id": "ineedamonk",
     "label": "I Need A Monk",
-    "category": "Sounds",
-    "tab": "Sounds"
+    "category": "DND",
+    "tab": "DND"
   },
   {
     "id": "ipinch",
@@ -224,8 +224,8 @@
   {
     "id": "nat-20",
     "label": "nat 20",
-    "category": "Sounds",
-    "tab": "Sounds"
+    "category": "DND",
+    "tab": "DND"
   },
   {
     "id": "natalie",
@@ -272,8 +272,8 @@
   {
     "id": "prowler",
     "label": "prowler",
-    "category": "Sounds",
-    "tab": "Sounds"
+    "category": "Movies",
+    "tab": "Movies"
   },
   {
     "id": "running",
@@ -324,22 +324,28 @@
   "tab": "Spongebob"
   },
   {
+    "id": "squidward-laughing",
+    "label": "squidward laugh",
+    "category": "Spongebob",
+    "tab": "Spongebob"
+  },
+  {
     "id": "stabbing",
     "label": "stabbing",
-    "category": "Sounds",
-    "tab": "Sounds"
+    "category": "DND",
+    "tab": "DND"
   },
   {
     "id": "sword-hits-armour",
     "label": "sword hits armour",
-    "category": "Sounds",
-    "tab": "Sounds"
+    "category": "DND",
+    "tab": "DND"
   },
   {
     "id": "sword-hits-flesh",
     "label": "sword hits flesh",
-    "category": "Sounds",
-    "tab": "Sounds"
+    "category": "DND",
+    "tab": "DND"
   },
   {
     "id": "time-go",
@@ -366,6 +372,12 @@
     "tab": "Sounds"
   },
   {
+    "id": "whammy",
+    "label": "Whammy",
+    "category": "Sounds",
+    "tab": "Sounds"
+  },
+  {
     "id": "what-the-hell-is-happening-in-shibuya",
     "label": "What the hell is happening in shibuya!!",
     "category": "Anime",
@@ -380,8 +392,8 @@
   {
     "id": "wilhelm-scream",
     "label": "wilhelm scream",
-    "category": "Sounds",
-    "tab": "Sounds"
+    "category": "Movies",
+    "tab": "Movies"
   },
   {
     "id": "yahaha",
