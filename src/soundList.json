@@ -288,6 +288,12 @@
     "tab": "Overwatch"
   },
   {
+    "id": "it-would-be-so-awesome",
+    "label": "it would be so awesome",
+    "category": "Teen Titans Go",
+    "tab": "Teen Titans Go"
+  },
+  {
     "id": "jeopardy-theme",
     "label": "jeopardy theme",
     "category": "Music",
@@ -450,6 +456,12 @@
     "tab": "Overwatch"
   },
   {
+    "id": "robin-boom",
+    "label": "boom (robin)",
+    "category": "Teen Titans Go",
+    "tab": "Teen Titans Go"
+  },
+  {
     "id": "running",
     "label": "running",
     "category": "Sounds",
@@ -552,10 +564,22 @@
     "tab": "DND"
   },
   {
+    "id": "Teen Titans Go Crane Kick Song",
+    "label": "Crane kick song",
+    "category": "Teen Titans Go",
+    "tab": "Teen Titans Go"
+  },
+  {
     "id": "the-nether-minecraft-movie",
     "label": "the nether (movie)",
     "category": "Minecraft",
     "tab": "Minecraft"
+  },
+  {
+    "id": " THE NIGHT BEGINS TO SHINE!!",
+    "label": "The night begins to shine!!",
+    "category": "Teen Titans Go",
+    "tab": "Teen Titans Go"
   },
   {
     "id": "this-pig-is-mine",
@@ -568,6 +592,12 @@
     "label": "time go",
     "category": "Sounds",
     "tab": "Sounds"
+  },
+  {
+    "id": "ttg-ride-the-dragon",
+    "label": "ride that dragon",
+    "category": "Teen Titans Go",
+    "tab": "Teen Titans Go"
   },
   {
     "id": "treasures-minecraft-movie",
