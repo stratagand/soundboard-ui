@@ -186,6 +186,12 @@
     "tab": "Sounds"
   },
   {
+    "id": "law-and-order",
+    "label": "law and order",
+    "category": "Sounds",
+    "tab": "Sounds"
+  },
+  {
     "id": "mahoraga-helpme",
     "label": "Mahoraga HELP ME",
     "category": "Anime",
@@ -360,10 +366,22 @@
     "tab": "Zelda"
   },
   {
+    "id": "minecraft-drinking",
+    "label": "Drinking",
+    "category": "Minecraft",
+    "tab": "Minecraft"
+  },
+  {
     "id": "minecraft-villager",
     "label": "villager",
     "category": "Minecraft",
     "tab": "Minecraft"
+  },
+  {
+    "id": "objection",
+    "label": "objection",
+    "category": "Anime",
+    "tab": "Anime"
   },
   {
     "id": "wheres-my-money",
@@ -394,6 +412,12 @@
     "label": "wilhelm scream",
     "category": "Movies",
     "tab": "Movies"
+  },
+  {
+    "id": "wrong-answer-buzzer",
+    "label": "wrong answer",
+    "category": "Sounds",
+    "tab": "Sounds"
   },
   {
     "id": "yahaha",
