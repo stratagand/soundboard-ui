@@ -18,6 +18,12 @@
     "tab": "DND"
   },
   {
+    "id": "bazinga",
+    "label": "Bazinga!",
+    "category": "Sounds",
+    "tab": "Sounds"
+  },
+  {
     "id": "boot",
     "label": "boot",
     "category": "DND",
@@ -52,6 +58,24 @@
     "label": "Booty",
     "category": "Sounds",
     "tab": "Sounds"
+  },
+  {
+    "id": "botw-big-item",
+    "label": "big item",
+    "category": "Zelda",
+    "tab": "Zelda"
+  },
+  {
+    "id": "botw-game-over",
+    "label": "game over",
+    "category": "Zelda",
+    "tab": "Zelda"
+  },
+  {
+    "id": "botw-legendary-item",
+    "label": "legendary item",
+    "category": "Zelda",
+    "tab": "Zelda"
   },
   {
     "id": "burger",
@@ -162,6 +186,12 @@
     "tab": "Sounds"
   },
   {
+    "id": "jeopardy-theme",
+    "label": "jeopardy theme",
+    "category": "Music",
+    "tab": "Music"
+  },
+  {
     "id": "ka-me",
     "label": "ka me",
     "category": "Sounds",
@@ -220,6 +250,12 @@
     "label": "mario mushroom",
     "category": "Mario",
     "tab": "Mario"
+  },
+  {
+    "id": "mccrees-ultimate",
+    "label": "Cassidy ult",
+    "category": "Overwatch",
+    "tab": "Overwatch"
   },
   {
     "id": "mikemikemike",
@@ -446,6 +482,12 @@
   {
     "id": "zelda-boss",
     "label": "boss",
+    "category": "Zelda",
+    "tab": "Zelda"
+  },
+  {
+    "id": "zelda-guardian",
+    "label": "guardian",
     "category": "Zelda",
     "tab": "Zelda"
   },
