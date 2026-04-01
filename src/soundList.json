@@ -108,6 +108,12 @@
     "tab": "Sounds"
   },
   {
+    "id": "drumroll",
+    "label": "drumrollll",
+    "category": "Sounds",
+    "tab": "Sounds"
+  },
+  {
     "id": "eating",
     "label": "eating",
     "category": "Minecraft",
@@ -124,6 +130,12 @@
     "label": "fail",
     "category": "Sounds",
     "tab": "Sounds"
+  },
+  {
+    "id": "genji-ult",
+    "label": "genji ult",
+    "category": "Overwatch",
+    "tab": "Overwatch"
   },
   {
     "id": "xgongiveittoya",
@@ -348,6 +360,18 @@
     "tab": "Music"
   },
   {
+    "id": "shocked",
+    "label": "crowd shocked",
+    "category": "Sounds",
+    "tab": "Sounds"
+  },
+  {
+    "id": "small_crowd_applause",
+    "label": "applause",
+    "category": "Sounds",
+    "tab": "Sounds"
+  },
+  {
     "id": "spongebob-boowomp",
     "label": "spongebob boowomp",
     "category": "Spongebob",
@@ -436,6 +460,12 @@
     "label": "What the hell is happening in shibuya!!",
     "category": "Anime",
     "tab": "Anime"
+  },
+  {
+    "id": "wheel-of-fortune",
+    "label": "wheel of fortune",
+    "category": "Sounds",
+    "tab": "Sounds"
   },
   {
     "id": "whostheman",
