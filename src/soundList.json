@@ -6,10 +6,34 @@
     "tab": "Spongebob"
   },
   {
+    "id": "absolutently",
+    "label": "abso-rute-en-tutenly",
+    "category": "Minecraft",
+    "tab": "Minecraft"
+  },
+  {
+    "id": "and-they-say",
+    "label": "and dey say",
+    "category": "Overwatch",
+    "tab": "Overwatch"
+  },
+  {
+    "id": "aot-intermission",
+    "label": "aot intermission",
+    "category": "Anime",
+    "tab": "Anime"
+  },
+  {
     "id": "artillery",
     "label": "artillery",
     "category": "DND",
     "tab": "DND"
+  },
+  {
+    "id": "ashe-pitch-a-fit",
+    "label": "pitch a fit (ashe)",
+    "category": "Overwatch",
+    "tab": "Overwatch"
   },
   {
     "id": "attack-unarmed",
@@ -22,6 +46,24 @@
     "label": "Bazinga!",
     "category": "Sounds",
     "tab": "Sounds"
+  },
+  {
+    "id": "big-fat-dumperu",
+    "label": "big fat dumperu",
+    "category": "Minecraft",
+    "tab": "Minecraft"
+  },
+  {
+    "id": "big-ol-red-ones",
+    "label": "big ol red ones",
+    "category": "Minecraft",
+    "tab": "Minecraft"
+  },
+  {
+    "id": "bob-do-something",
+    "label": "bob do somethin'",
+    "category": "Overwatch",
+    "tab": "Overwatch"
   },
   {
     "id": "boot",
@@ -90,6 +132,18 @@
     "tab": "South Park"
   },
   {
+    "id": "cheerslove",
+    "label": "cheers love!",
+    "category": "Overwatch",
+    "tab": "Overwatch"
+  },
+  {
+    "id": "crushing-loaf-minecraft-movie",
+    "label": "they love crushin' loaf",
+    "category": "Minecraft",
+    "tab": "Minecraft"
+  },
+  {
     "id": "death-note-confusion-sound",
     "label": "deathnote confusion",
     "category":"Anime",
@@ -120,6 +174,12 @@
     "tab": "Minecraft"
   },
   {
+    "id": "ender-pearl-movie",
+    "label": "ender pearl (movie)",
+    "category": "Minecraft",
+    "tab": "Minecraft"
+  },
+  {
     "id": "erwin-advance",
     "label": "I SAID ADVANCE GODDAMN IT",
     "category": "Anime",
@@ -134,6 +194,12 @@
   {
     "id": "genji-ult",
     "label": "genji ult",
+    "category": "Overwatch",
+    "tab": "Overwatch"
+  },
+  {
+    "id": "good-kitty",
+    "label": "good kitty",
     "category": "Overwatch",
     "tab": "Overwatch"
   },
@@ -162,6 +228,12 @@
     "tab": "Sounds"
   },
   {
+    "id": "hello-there-moira",
+    "label": "hello there (moira)",
+    "category": "Overwatch",
+    "tab": "Overwatch"
+  },
+  {
     "id": "hellsbells",
     "label": "Hells Bells",
     "category": "Sounds",
@@ -172,6 +244,12 @@
     "label": "damn L, he got me",
     "category": "Anime",
     "tab": "Anime"
+  },
+  {
+    "id": "heros-never-die",
+    "label": "mercy ult",
+    "category": "Overwatch",
+    "tab": "Overwatch"
   },
   {
     "id": "hey_listen",
@@ -192,16 +270,34 @@
     "tab": "DND"
   },
   {
+    "id": "i-am-steve-minecraft-movie",
+    "label": "i am steve",
+    "category": "Minecraft",
+    "tab": "Minecraft"
+  },
+  {
     "id": "ipinch",
     "label": "I Pinch",
     "category": "Sounds",
     "tab": "Sounds"
   },
   {
+    "id": "is-this-easy-mode",
+    "label": "is this easy mode?",
+    "category": "Overwatch",
+    "tab": "Overwatch"
+  },
+  {
     "id": "jeopardy-theme",
     "label": "jeopardy theme",
     "category": "Music",
     "tab": "Music"
+  },
+  {
+    "id": "juckrat-ult",
+    "label": "junkrat ult",
+    "category": "Overwatch",
+    "tab": "Overwatch"
   },
   {
     "id": "ka-me",
@@ -232,6 +328,18 @@
     "label": "law and order",
     "category": "Sounds",
     "tab": "Sounds"
+  },
+  {
+    "id": "lets-break-it-down",
+    "label": "lets break it down",
+    "category": "Overwatch",
+    "tab": "Overwatch"
+  },
+  {
+    "id": "lifeweaver-ult",
+    "label": "lifeweaver ult",
+    "category": "Overwatch",
+    "tab": "Overwatch"
   },
   {
     "id": "mahoraga-helpme",
@@ -288,6 +396,12 @@
     "tab": "Sounds"
   },
   {
+    "id": "nerf-this",
+    "label": "nerf this",
+    "category": "Overwatch",
+    "tab": "Overwatch"
+  },
+  {
     "id": "NFL-theme",
     "label": "NFL theme",
     "category": "Music",
@@ -330,6 +444,12 @@
     "tab": "Movies"
   },
   {
+    "id": "reaper-ult",
+    "label": "reaper ult",
+    "category": "Overwatch",
+    "tab": "Overwatch"
+  },
+  {
     "id": "running",
     "label": "running",
     "category": "Sounds",
@@ -346,6 +466,12 @@
     "label": "Sanford",
     "category": "Music",
     "tab": "Music"
+  },
+  {
+    "id": "say_bacon_one_more_time",
+    "label": "say bacon one more time",
+    "category": "Overwatch",
+    "tab": "Overwatch"
   },
   {
     "id": "secret",
@@ -370,6 +496,12 @@
     "label": "applause",
     "category": "Sounds",
     "tab": "Sounds"
+  },
+  {
+    "id": "soldiers-charge-aot",
+    "label": "all soldiers CHARRGEEE",
+    "category": "Anime",
+    "tab": "Anime"
   },
   {
     "id": "spongebob-boowomp",
@@ -402,6 +534,12 @@
     "tab": "DND"
   },
   {
+    "id": "sweet-blade",
+    "label": "get yourself a sweet blade",
+    "category": "Minecraft",
+    "tab": "Minecraft"
+  },
+  {
     "id": "sword-hits-armour",
     "label": "sword hits armour",
     "category": "DND",
@@ -414,10 +552,28 @@
     "tab": "DND"
   },
   {
+    "id": "the-nether-minecraft-movie",
+    "label": "the nether (movie)",
+    "category": "Minecraft",
+    "tab": "Minecraft"
+  },
+  {
+    "id": "this-pig-is-mine",
+    "label": "this pig is MINE",
+    "category": "Minecraft",
+    "tab": "Minecraft"
+  },
+  {
     "id": "time-go",
     "label": "time go",
     "category": "Sounds",
     "tab": "Sounds"
+  },
+  {
+    "id": "treasures-minecraft-movie",
+    "label": "some of my favorite treaasures",
+    "category": "Minecraft",
+    "tab": "Minecraft"
   },
   {
     "id": "victory",
@@ -454,6 +610,12 @@
     "label": "Whammy",
     "category": "Sounds",
     "tab": "Sounds"
+  },
+  {
+    "id": "what-is-that-melody",
+    "label": "sigma ult",
+    "category": "Overwatch",
+    "tab": "Overwatch"
   },
   {
     "id": "what-the-hell-is-happening-in-shibuya",
@@ -526,6 +688,12 @@
     "label": "item",
     "category": "Zelda",
     "tab": "Zelda"
+  },
+  {
+    "id": "zombie-minecraft",
+    "label": "zombie",
+    "category": "Minecraft",
+    "tab": "Minecraft"
   },
   {
     "id": "zug-zug",
