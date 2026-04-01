@@ -60,6 +60,12 @@
     "tab": "Sounds"
   },
   {
+    "id": "cartmen-slave",
+    "label": "masters got me workin",
+    "category":"South Park",
+    "tab": "South Park"
+  },
+  {
     "id": "death-note-confusion-sound",
     "label": "deathnote confusion",
     "category":"Music",
@@ -260,14 +266,14 @@
   {
     "id": "secret",
     "label": "secret",
-    "category": "Sounds",
-    "tab": "Sounds"
+    "category": "Zelda",
+    "tab": "Zelda"
   },
   {
     "id": "sexy-sax",
     "label": "sexy sax",
-    "category": "Sounds",
-    "tab": "Sounds"
+    "category": "Music",
+    "tab": "Music"
   },
   {
     "id": "spongebob-boowomp",
@@ -314,8 +320,8 @@
   {
     "id": "victory",
     "label": "victory",
-    "category": "Sounds",
-    "tab": "Sounds"
+    "category": "Zelda",
+    "tab": "Zelda"
   },
   {
     "id": "wheres-my-money",
@@ -326,8 +332,8 @@
   {
     "id": "whostheman",
     "label": "Who's The Man",
-    "category": "Sounds",
-    "tab": "Sounds"
+    "category": "Music",
+    "tab": "Music"
   },
   {
     "id": "wilhelm-scream",
@@ -338,8 +344,8 @@
   {
     "id": "yahaha",
     "label": "yahaha",
-    "category": "Sounds",
-    "tab": "Sounds"
+    "category": "Zelda",
+    "tab": "Zelda"
   },
   {
     "id": "you-are-fired",
@@ -350,20 +356,20 @@
   {
     "id": "you-shall-not-pass",
     "label": "you shall not pass",
-    "category": "Sounds",
-    "tab": "Sounds"
+    "category": "Movies",
+    "tab": "Movies"
   },
   {
     "id": "zelda-boss",
-    "label": "zelda boss",
-    "category": "Sounds",
-    "tab": "Sounds"
+    "label": "boss",
+    "category": "Zelda",
+    "tab": "Zelda"
   },
   {
     "id": "zelda-item",
-    "label": "zelda item",
-    "category": "Sounds",
-    "tab": "Sounds"
+    "label": "item",
+    "category": "Zelda",
+    "tab": "Zelda"
   },
   {
     "id": "zug-zug",
