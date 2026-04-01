@@ -60,7 +60,7 @@
     "tab": "Sounds"
   },
   {
-    "id": "cartmen-slave",
+    "id": "cartman-slave",
     "label": "masters got me workin",
     "category":"South Park",
     "tab": "South Park"
@@ -291,7 +291,7 @@
   "id": "spongebob-imagination",
   "label": "spongebob imagination",
   "category": "Spongebob",
-  "tab": "Spongebob:"
+  "tab": "Spongebob"
   },
   {
     "id": "stabbing",
