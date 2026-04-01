@@ -90,6 +90,12 @@
     "tab": "Sounds"
   },
   {
+    "id": "erwin-advance",
+    "label": "I SAID ADVANCE GODDAMN IT",
+    "category": "Anime",
+    "tab": "Anime"
+  },
+  {
     "id": "fail",
     "label": "fail",
     "category": "Sounds",
@@ -328,6 +334,12 @@
     "label": "wheres my money",
     "category": "Sounds",
     "tab": "Sounds"
+  },
+  {
+    "id": "what-the-hell-is-happening-in-shibuya",
+    "label": "What the hell is happening in shibuya!!",
+    "category": "Anime",
+    "tab": "Anime"
   },
   {
     "id": "whostheman",
