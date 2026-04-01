@@ -132,6 +132,18 @@
     "tab": "Sounds"
   },
   {
+    "id": "he-got-me",
+    "label": "damn L, he got me",
+    "category": "Anime",
+    "tab": "Anime"
+  },
+  {
+    "id": "hey_listen",
+    "label": "Hey, listen!",
+    "category": "Zelda",
+    "tab": "Zelda"
+  },
+  {
     "id": "huuuuaaaa",
     "label": "huuuuaaaa",
     "category": "Sounds",
@@ -172,6 +184,12 @@
     "label": "kids cheering",
     "category": "Sounds",
     "tab": "Sounds"
+  },
+  {
+    "id": "mahoraga-helpme",
+    "label": "Mahoraga HELP ME",
+    "category": "Anime",
+    "tab": "Anime"
   },
   {
     "id": "mario-coin",
@@ -238,6 +256,12 @@
     "label": "patience",
     "category": "Sounds",
     "tab": "Sounds"
+  },
+  {
+    "id": "perfect-victory",
+    "label": "my perfect victory, thats right, i win",
+    "category": "Anime",
+    "tab": "Anime"
   },
   {
     "id": "pixies",
