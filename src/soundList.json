@@ -128,7 +128,7 @@
   {
     "id": "cartman-slave",
     "label": "masters got me workin",
-    "category":"South Park",
+    "category": "South Park",
     "tab": "South Park"
   },
   {
@@ -136,6 +136,12 @@
     "label": "cheers love!",
     "category": "Overwatch",
     "tab": "Overwatch"
+  },
+  {
+    "id": "critical-fail",
+    "label": "critical fail",
+    "category": "DND",
+    "tab": "DND"
   },
   {
     "id": "crushing-loaf-minecraft-movie",
@@ -146,7 +152,7 @@
   {
     "id": "death-note-confusion-sound",
     "label": "deathnote confusion",
-    "category":"Anime",
+    "category": "Anime",
     "tab": "Anime"
   },
   {
@@ -348,6 +354,12 @@
     "tab": "Overwatch"
   },
   {
+    "id": "loot-that-body",
+    "label": "loot that body",
+    "category": "DND",
+    "tab": "DND"
+  },
+  {
     "id": "mahoraga-helpme",
     "label": "Mahoraga HELP ME",
     "category": "Anime",
@@ -528,10 +540,10 @@
     "tab": "Spongebob"
   },
   {
-  "id": "spongebob-imagination",
-  "label": "spongebob imagination",
-  "category": "Spongebob",
-  "tab": "Spongebob"
+    "id": "spongebob-imagination",
+    "label": "spongebob imagination",
+    "category": "Spongebob",
+    "tab": "Spongebob"
   },
   {
     "id": "squidward-laughing",

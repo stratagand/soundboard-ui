@@ -24,6 +24,7 @@ function App() {
   const [channels, setChannels] = useState([]);
   const [selectedGuild, setSelectedGuild] = useState('');
   const [selectedChannel, setSelectedChannel] = useState('');
+  const [youtubeUrl, setYoutubeUrl] = useState('');
   const [status, setStatus] = useState('');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
@@ -123,6 +124,38 @@ function App() {
       setStatus(`Queued ${soundId} for playback.`);
     } catch (err) {
       setError(err.message || 'Play request failed.');
+      setStatus('');
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const handlePlayYoutube = async () => {
+    if (!selectedGuild || !selectedChannel) {
+      setError('Select a guild and voice channel first.');
+      return;
+    }
+    if (!youtubeUrl.trim()) {
+      setError('Enter a YouTube video URL.');
+      return;
+    }
+
+    setLoading(true);
+    setError('');
+    setStatus('Sending YouTube playback request...');
+
+    try {
+      await fetchJson('/api/play-youtube', {
+        method: 'POST',
+        body: JSON.stringify({
+          guildId: selectedGuild,
+          channelId: selectedChannel,
+          url: youtubeUrl.trim()
+        })
+      });
+      setStatus('Queued YouTube audio for playback.');
+    } catch (err) {
+      setError(err.message || 'YouTube play request failed.');
       setStatus('');
     } finally {
       setLoading(false);
@@ -238,14 +271,34 @@ function App() {
                   ))}
                 </select>
               </label>
-              <button
-                type="button"
-                onClick={handleStop}
-                disabled={!selectedChannel || loading}
-                style={{ marginTop: '18px' }}
-              >
-                Stop playback
-              </button>
+
+              <div className="youtube-entry-row">
+                <label className="youtube-url-label">
+                  <span>YouTube video URL</span>
+                  <input
+                    type="text"
+                    placeholder="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                    value={youtubeUrl}
+                    onChange={(event) => setYoutubeUrl(event.target.value)}
+                  />
+                </label>
+                <div className="button-row">
+                  <button
+                    type="button"
+                    onClick={handlePlayYoutube}
+                    disabled={!selectedChannel || loading}
+                  >
+                    Play YouTube audio
+                  </button>
+                  <button
+                    type="button"
+                    onClick={handleStop}
+                    disabled={!selectedChannel || loading}
+                  >
+                    Stop playback
+                  </button>
+                </div>
+              </div>
             </section>
 
             <section className="card soundboard">
